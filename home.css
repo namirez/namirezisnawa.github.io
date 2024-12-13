@@ -14,7 +14,7 @@ section {
   justify-content: flex-start;
   background-size: cover;
   background-position: center;
-  background: url(/img/puy.jpeg) no-repeat;
+  background: url(puy.jpeg) no-repeat;
   background-size: 1660px;
   background-position: center;
 }
