@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARRIZQI.ID</title>
+    <style>
+
+              #jdl {
+                  margin-left: 40px;
+                  padding-top: 1px;
+              }
+            .ame {
+                margin-left: 50px;
+                padding-top: -100px;
+            }
+
+            .pilihan{
+              justify-content: space-around;
+              margin-left: 50px;
+            }
+
+            .wrn {
+              display: flex;
+              margin-left: 2px;
+            }
+            .wrn p {
+              font-weight: bolder;
+              padding-left: 48px;
+              padding-right: 40px;
+            }
+
+            .butbaw {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 30px;
+            margin-left: 50px;
+             color: #fff;
+           background: #8AAEB0;
+           text-decoration: none;
+           text-transform: uppercase;
+           font-weight: 700;
+           letter-spacing: 2px;
+           padding: 15px 460px;
+           border-radius: 9px;
+          transition: 0.3s;
+      }
+          .butbaw:hover {
+        text-decoration: none;
+        background: #245749;
+      }
+      .hrg {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px ;
+        color: chocolate;
+        font-weight: bolder;
+        position: absolute;
+        right: 59%;
+        display: flex;
+        margin-left: 580px;
+        margin-top: 20px;
+      }
+      .all{
+        display: flex;
+      }
+      .main-content .right {
+               display: flex;
+               flex-direction: column;
+               right: 25%;
+           }
+           .main-content .right .price {
+               font-size: 24px;
+               color: #b12704;
+               margin-bottom: 10px;
+           }
+           .main-content .right .color, .main-content .right .size {
+               margin-bottom: 10px;
+           }
+           .main-content .right .color span, .main-content .right .size span {
+               display: inline-block;
+               margin-right: 10px;
+           }
+           .main-content .right .color span {
+               width: 20px;
+               height: 20px;
+               border-radius: 50%;
+               border: 1px solid #000;
+           }
+          .harga .color .red { background-color: rgb(255, 113, 77); }
+          .harga .color .black { background-color: black; }
+          .harga .color .yellow { background-color: yellow; }
+          .harga .color .purple { background-color: rgb(219, 150, 219); }
+           .main-content  .size button {
+               padding: 5px 10px;
+               border: 1px solid #000;
+               background-color: #fff;
+               cursor: pointer;
+           }
+           .main-content .right .quantity {
+               display: flex;
+               align-items: center;
+               margin-bottom: 10px;
+           }
+           .main-content .right .quantity input {
+               width: 50px;
+               text-align: center;
+               margin: 0 10px;
+           }
+           .main-content .right .buttons {
+               display: flex;
+               align-items: center;
+               margin-bottom: 10px;
+           }
+           .main-content .right .buttons button {
+               padding: 10px 20px;
+               border: none;
+               background-color: #b0c4de;
+               cursor: pointer;
+               margin-right: 10px;
+           }
+           .main-content .right .buttons .favorite {
+               display: flex;
+               align-items: center;
+               cursor: pointer;
+           }
+           .main-content .right .buttons .favorite i {
+               margin-right: 5px;
+           }
+           .main-content .right .details {
+               margin-bottom: 10px;
+           }
+           .main-content .right .details ul {
+               list-style: none;
+               padding: 0;
+           }
+           .main-content .right .details ul li {
+               margin-bottom: 5px;
+           }
+           .main-content .right .details img {
+               width: 100%;
+               height: auto;
+           }
+           .harga{
+            height: auto;
+            position: absolute;
+            right: 60%;
+            top: 30%;
+            font-size: 1.5rem;
+           }
+    </style>
+  </head>
+  <body>
+    <div class="exit">
+      <a href="homepage.html"
+        ><img src="/img/kembali.png" width="30px" height="35px"
+      /></a>
+    </div>
+    <h1 id="jdl">Ameena Abaya</h1>
+    <hr />
+    <div class="all">
+      <div class="left">
+        <p class="hrg">IDR 95.000</p>
+        <div class="ame">
+          <img src="/img/amehitam.jpg" alt="" width="470px" />
+        </div>
+        <br />
+        <div class="pilihan">
+          <img src="/img/ameterra.jpg" alt="" width="114px" />
+          <img src="/img/amehitam.jpg" alt="" width="114px" />
+          <img src="/img/amelemon.jpg" alt="" width="114px" />
+          <img src="/img/amelilac.jpg" alt="" width="114px" />
+        </div>
+        <div class="wrn">
+          <p>Terracota</p>
+          <p>Black</p>
+          <p>Lemon</p>
+          <p>Lilac</p>
+        </div>
+        <br />
+        <a href="checkout.html" class="butbaw"> Checkout</a>
+      </div>
+      <div class="harga">
+        <div class="price">IDR 95.000</div>
+        <div class="color">
+          <div>Color</div>
+          <span class="red"> </span>
+          <span class="black"> </span>
+          <span class="yellow"> </span>
+          <span class="purple"> </span>
+        </div>
+        <div class="size">
+          <div>Size</div>
+          <button>S</button>
+          <button>M</button>
+          <button>L</button>
+          <button>XL</button>
+        </div>
+        <div class="quantity">
+          <div>Quantity</div>
+          <input min="1" type="number" value="1" />
+        </div>
+        <div class="buttons">
+          <button>Add to cart</button>
+          <div class="favorite">
+            <i class="fas fa-heart"> </i>
+            <div>Favorite</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="details">
+          <div>Product details</div>
+          <ul>
+            <li>~ Bahan crinkle premium (lenih adem,jatuh)</li>
+            <li>~ Free belt (tali pinggang)</li>
+            <li>~ Busui friendly</li>
+            <li>~ Wudhu friendly</li>
+          </ul>
+          <img
+            alt="Ameena Abaya product details image"
+            height="500"
+            src="/img/ameawal.jpg"
+            width="500"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+.judul{
+    margin-top: 4%;
+    background-color: #557C7E;    
+    width: 230px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 60px;
+    display: flex;
+    border-radius: 5%;
+    margin-left: 500px;
+}
+
+h2{
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.satu {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+h3{
+    color: #FFFFFF;
+}
+
+hr{
+    width: 320px;
+    color: white;
+    margin-left: 50px;
+}
+
+h4{
+    color: #234749;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+
+.nama1{
+    background-color: #D9D9D9;
+    height: 45px;
+    width: 245px;
+    margin-left: 50px;
+    border-radius: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+.nama2{
+    background-color: #D9D9D9;
+    height: 45px;
+    width: 245px;
+    margin-left: 50px;
+    border-radius: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+.nama3{
+    background-color: #D9D9D9;
+    height: 45px;
+    width: 245px;
+    margin-left: 50px;
+    border-radius: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+.nama4{
+    background-color: #D9D9D9;
+    height: 45px;
+    width: 245px;
+    margin-left: 50px;
+    border-radius: 5%;
+    text-align: center;
+    justify-content: center;
+}
+
+.toko{
+    background-color: #D9D9D9;
+    height: 114px;
+    width: 335px;
+    border-radius: 5%;
+    margin-left: 750px; 
+    margin-bottom: 10px;
+    justify-content: center;
+    margin-top: 10%;
+} 
+
+p{
+    color: black;
+    font-size: 25px;
+    padding-top: 15px;
+    margin-left: 18px;
+}
+#P{
+    color: #214D50;
+    padding: 0px;
+    padding-left: 120px;
+}
